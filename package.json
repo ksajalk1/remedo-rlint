@@ -1,17 +1,19 @@
 {
-  "name": "my-lint",
-  "version": "1.0.0",
+  "name": "remedo-lint",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src/**/*.js",
-    "start": "node src/index.js"
+    "lint": "eslint src/**/*.tsx"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/parser": "^6.20.0",
     "eslint": "^8.56.0",
-    "eslint-plugin-remedo-lint": "1.0.0"
+    "eslint-plugin-remedo-lint": "1.0.1"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
   }
 }
