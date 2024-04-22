@@ -18,6 +18,7 @@ module.exports = {
   overrides: [
     {
       files: ["src/**/*.tsx"],
+      excludedFiles: ["*composition*.tsx"],
       rules:{
         "tailwindcss/classnames-order": "off",
         "tailwindcss/no-custom-classname": "off",
