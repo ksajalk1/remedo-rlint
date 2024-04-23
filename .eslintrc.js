@@ -34,7 +34,7 @@ module.exports = {
       rules: {} // Disables all rules for these files
     },
     {
-      files: ["src/**/*.tsx"],
+      files: ["*.tsx"],
       rules:{
         "tailwindcss/classnames-order": "off",
         "tailwindcss/no-custom-classname": "off",
