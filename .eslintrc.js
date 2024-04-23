@@ -30,6 +30,10 @@ module.exports = {
   },
   overrides: [
     {
+      files: ["src/**/*composition*.tsx"], // Pattern to match files containing 'composition'
+      rules: {} // Disables all rules for these files
+    },
+    {
       files: ["src/**/*.tsx"],
       rules:{
         "tailwindcss/classnames-order": "off",
@@ -37,11 +41,8 @@ module.exports = {
         "tailwindcss/no-arbitrary-value": "error",
         "eslint-comments/require-description": ["error", {"ignore": []}]
       }
-    },
-    {
-      files: ["src/**/*composition*.tsx"], // Pattern to match files containing 'composition'
-      rules: {} // Disables all rules for these files
     }
+    
   ]
 };
 
