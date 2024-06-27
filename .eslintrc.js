@@ -26,7 +26,14 @@ module.exports = {
     "remedo-lint/parent-div-id": [2, { include: [], exclude: [] }],
     "remedo-lint/style-classname-props": [2, { include: [], exclude: [] }],
     "validate-jsx-nesting/no-invalid-jsx-nesting": "error",
-    "remedo-lint/optional-props": [2, { include: [], exclude: [] }]
+    "remedo-lint/optional-props": [2, { include: [], exclude: [] }],
+    "remedo-lint/no-unnecessary-divs": [2, { include: [], exclude: [] }],
+    "remedo-lint/div-data-id": [2, { include: [], exclude: [] }],
+    "remedo-lint/cmap-iteration": [2, { include: [], exclude: [] }],
+    "remedo-lint/classname-in-text": [2, { include: [], exclude: [] }],
+    "remedo-lint/image-format": [2, { include: [], exclude: [] }],
+    "remedo-lint/check-unused-props": [2, { include: [], exclude: [] }],
+    "remedo-lint/width-in-text": [1, { include: [], exclude: [] }],
   },
   overrides: [
     {
